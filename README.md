@@ -1,13 +1,13 @@
 # flutter-tests-documentation
 
-Testes Em Flutter.
+## Testes Em Flutter.
 Repositório criado com foco em testes Unitários(TDD), testes de Widget e testes de Integração
 
 *Antes de mais nada, por boas práticas(e quase obrigação também kk) refaço minha arquitetura de packages da "lib" dentro da pasta "test", criando a mesma arquitetura para a parte de testes.
 
 -O código está desenvolvido no passo a passo por comits, então o primeiro commit contém a arquitetura da "lib" e de "test", com tudo pra começar os testes, ainda sem o código de produção, já que é primeiro o teste. E ao longo dos commits vou desenvolvendo um passo a passo entre testes e códigos.
 
-Unitários - TDD
+### Unitários - TDD
 1.Escreva um teste que falhe; 2.Faça o código funcionar; 3.Refatore o teste.
 Passo 1 - Comece pelos testes! É isso mesmo, o conceito do TDD é: primeiro o teste, depois o código de produção.
 Passo 2 - flutter_test (pubspec.yaml) é a única dependência pra TDD.
@@ -21,7 +21,7 @@ Observação: No TDD você inicia os testes sobre as funcionalidades que o APP d
 
 
 
-Widget
+### Widget
 1.Crie o widget; 2.Analise o que o widget deve entregar; 3.Faça os testes.
 Passo 1 - Crie seus widgets, como um TextFormField por exemplo. Adicione uma "key" para este widget. É por essa chave "key" que os testes encontram o widget.
 Passo 2 - Você pode criar sua funcionalidade validando com os testes de TDD; No botão de Cadestre-se por exemplo, se o Email e Senha estão corretas(DEMONSTRAÇÃO NO COMMIT: "PASSO 2 DOC"), você já utiliza a validação feita na classe AUTH.
